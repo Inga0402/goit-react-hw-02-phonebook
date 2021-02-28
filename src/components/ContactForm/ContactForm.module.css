@@ -6,11 +6,13 @@
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(163, 177, 180, 0.5);
 }
+
 .label {
   display: flex;
   flex-direction: column;
   color: rgb(19, 28, 158);
 }
+
 .input {
   margin-top: 5px;
   margin-bottom: 15px;
@@ -21,10 +23,12 @@
   border: 1px solid rgb(19, 28, 158);
   border-radius: 5px;
 }
+
 .input:focus,
 .input:hover {
   border: 2px solid rgb(19, 28, 158);
 }
+
 .btn {
   height: 40px;
   padding: 5px;
@@ -34,9 +38,11 @@
   border: none;
   outline: rgb(19, 28, 158);
 }
+
 .btn:hover {
   transform: scale(1.08);
 }
+
 .error {
   font-size: 10px;
   color: rgb(184, 8, 125);
